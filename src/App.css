@@ -1,0 +1,219 @@
+article{
+  margin: 1rem;
+  background-color: white;
+  padding: 5rem ;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  width: 30%;
+  height: 280vh;
+
+}
+
+
+
+
+main{
+
+background-color: rgb(31, 31, 31);
+  display: flex;
+}
+
+
+.container-all-products{
+
+width: 70%;
+height: 400vh;
+  background-color: rgb(49, 49, 49);
+padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  
+align-items: center;
+
+  gap: 5rem;
+}
+
+
+.container-all-products > div {
+
+ width: 70%;
+ justify-content: center;
+ height: 40%;
+background-color: white;
+  display: flex;
+
+  gap:rem;
+
+   
+}
+
+
+.Cronograma{
+  width: 80%;
+  border:solid 1px;
+}
+
+.Cronograma > div:nth-child(1){
+  height: 10%;
+  border:solid 1px;
+}
+
+.Cronograma > div:nth-child(2){
+
+height: 30%;
+  
+  display: flex;
+  
+  
+}
+
+.Cronograma > div:nth-child(2) > div:nth-child(1){
+
+  border:solid 1px ;
+
+ flex-direction: column;
+ width: 45%;
+
+}
+
+.Cronograma > div:nth-child(2) > div:nth-child(2){
+
+  width: 55%;
+}
+
+
+.Cronograma > div:nth-child(2) > div{
+
+  
+  width: 34%;
+  display: flex;
+  
+}
+
+
+
+.container-2bloque{
+
+  height: 7vh;
+  display: flex;
+  
+  
+}
+
+.container-2bloque > div {
+
+ border:solid 1px; 
+ width: 36%;
+  
+}
+
+
+
+.ctn-3-comites >div {
+
+  border: solid 1px;
+  
+  
+}
+
+.ctn-3-comites >div > div{
+
+  border: solid 1px;
+  
+  
+}
+
+
+
+
+
+
+.titulos{
+
+font-size: 16px;
+}
+
+.titulo2{
+
+  color:white;
+  font-size: 20px;
+  }
+  
+
+
+
+.respuestas{
+
+font-size: 15px;
+font-weight: 200;
+
+}
+
+@media (max-width: 560px)  
+{
+ 
+main {
+    
+    display: flex;
+  flex-direction: column;
+  
+   align-items: center;
+   gap: 3rem; 
+   height: 500vh; 
+
+
+
+  }
+
+
+  #container-form{
+    background-color:rgb(31, 31, 31) ;
+    color: white;
+
+
+  
+  }
+
+  .form-control{
+
+   border:solid rgb(95, 95, 95) 2px;
+
+      
+  }
+
+  article{
+
+  
+  width: 70%; 
+  display: flex;
+  background-color:rgb(31, 31, 31) ;
+  padding: 0rem ;
+  display: flex;
+  justify-content: center;
+height: 300vh;
+  gap: 4rem;
+
+  }
+
+
+  form {
+
+  
+    width: 100vh;
+  }
+
+
+  #botoncisito {
+
+    border:solid 2px rgb(93, 93, 230);
+    color:white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 4px;
+    background-color:rgb(31, 31, 31) ;
+
+
+  }
+
+}
