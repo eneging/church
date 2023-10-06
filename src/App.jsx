@@ -236,7 +236,29 @@ required:true
       
         </button>
         
-        <PDFDownloadLink document={<HojasPdf></HojasPdf>} fileName='Church.pdf'>
+        <PDFDownloadLink document={<HojasPdf 
+        
+        Fecha = {datito.fecha}
+        Barrio ={datito.Barrio} 
+        comiteBienvenida ={datito.comiteBienvenida}
+        comiteLimpieza = {datito.comiteLimpieza}
+        comiteRefrigerio = {datito.comiteRefrigerio}
+        comiteSeguridad = {datito.comiteSeguridad}
+        lider1 = {datito.lider1}
+        lider2 = {datito.lider2}
+        lider3 = {datito.lider3}
+        lider4 = {datito.lider4}
+        meta1 = {datito.meta1}
+        meta2 = {datito.meta2}
+        meta3 = {datito.meta3}
+        meta4 = {datito.meta4}
+        organizacion = {datito.organizacion}
+        presupuesto = {datito.presupuesto}
+        titulo = {datito.titulo}
+        descripcion = {datito.descripcion}
+        hora = {datito.hora}
+        > </HojasPdf> 
+} fileName='Church.pdf'>
         <button id='botoncisito' >
           Descargar
         </button></PDFDownloadLink>
@@ -246,7 +268,32 @@ required:true
 
 { datito ? 
     <div style={{minHeight : "100vh"}}>
-       {verWeb ? <Hojas ></Hojas> : null}
+       {verWeb ? <Hojas 
+       
+       Fecha = {datito.fecha}
+       Barrio ={datito.Barrio} 
+       comiteBienvenida ={datito.comiteBienvenida}
+       comiteLimpieza = {datito.comiteLimpieza}
+       comiteRefrigerio = {datito.comiteRefrigerio}
+       comiteSeguridad = {datito.comiteSeguridad}
+       lider1 = {datito.lider1}
+       lider2 = {datito.lider2}
+       lider3 = {datito.lider3}
+       lider4 = {datito.lider4}
+       meta1 = {datito.meta1}
+       meta2 = {datito.meta2}
+       meta3 = {datito.meta3}
+       meta4 = {datito.meta4}
+       organizacion = {datito.organizacion}
+       presupuesto = {datito.presupuesto}
+       titulo = {datito.titulo}
+       descripcion = {datito.descripcion}
+       hora = {datito.hora}
+      
+       
+       
+       
+       ></Hojas> : null}
        {verPdf ? <PDFViewer style={{ minHeight: "100vh" , height: "90vh"}
        }>
         

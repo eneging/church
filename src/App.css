@@ -192,6 +192,7 @@ main {
   display: flex;
   justify-content: center;
 height: 300vh;
+
   gap: 4rem;
 
   }
@@ -207,6 +208,7 @@ height: 300vh;
   #botoncisito {
 
     border:solid 2px rgb(93, 93, 230);
+  
     color:white;
     padding: 1rem;
     border-radius: 1rem;
@@ -215,5 +217,138 @@ height: 300vh;
 
 
   }
+
+
+  .container-all-products{
+
+    border: solid rgb(71, 71, 160);
+    border-radius: 1rem;
+    width: 90vw;
+    height: 150vh;
+    gap: 1rem;
+    padding: 1rem;
+
+  }
+
+
+
+  
+.container-all-products > div {
+
+  justify-content: center;
+  height: 160vh;
+  width: 80vw;
+ background-color: white;
+   display: flex;
+
+
+ 
+    
+ }
+ 
+ 
+ .Cronograma{
+   width: 100%;
+   border:solid  1px;
+ }
+ 
+ .Cronograma > div:nth-child(1){
+   height: 5%;
+   padding: 10px;
+   border:solid 1px;
+ }
+ 
+ .Cronograma > div:nth-child(2){
+ 
+ height: 27%;
+   
+   display: flex;
+   
+   
+ }
+ 
+ .Cronograma > div:nth-child(2) > div:nth-child(1){
+ 
+   border:solid 1px ;
+ 
+  flex-direction: column;
+  width: 44%;
+ 
+ }
+ 
+ .Cronograma > div:nth-child(2) > div:nth-child(2){
+ 
+   width: 55%;
+ }
+ 
+ 
+ .Cronograma > div:nth-child(2) > div{
+ 
+   
+   width: 34%;
+   display: flex;
+   
+ }
+ 
+ 
+ 
+ .container-2bloque{
+ 
+   height: 10vh;
+   display: flex;
+   
+   
+ }
+ 
+ .container-2bloque > div {
+ 
+  border:solid 1px; 
+  width: 36%;
+   
+ }
+ 
+ 
+ 
+ .ctn-3-comites >div {
+ 
+   border: solid 1px;
+   
+   
+ }
+ 
+ .ctn-3-comites >div > div{
+ 
+   border: solid 1px;
+   
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .titulos{
+ 
+ font-size: 16px;
+ }
+ 
+ .titulo2{
+ 
+   color:white;
+   font-size: 20px;
+   }
+   
+ 
+ 
+ 
+ .respuestas{
+ 
+ font-size: 15px;
+ font-weight: 200;
+ 
+ }
+
+
 
 }
