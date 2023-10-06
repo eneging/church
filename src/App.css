@@ -191,7 +191,7 @@ main {
   padding: 0rem ;
   display: flex;
   justify-content: center;
-height: 300vh;
+height: 250vh;
 
   gap: 4rem;
 
@@ -224,7 +224,7 @@ height: 300vh;
     border: solid rgb(71, 71, 160);
     border-radius: 1rem;
     width: 90vw;
-    height: 130vh;
+    height: 150vh;
     gap: 1rem;
     padding: 1rem;
 
